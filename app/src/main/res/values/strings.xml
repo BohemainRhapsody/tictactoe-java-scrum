@@ -1,4 +1,5 @@
 <resources>
-    <string name="app_name">Tic Tac Toe</string>
+    <string name="app_name">tictactoe_java_scrum</string>
     <string name="layoutBG">Tic-tac-toe image background</string>
+    <string name="button_reset">Reset</string>
 </resources>
