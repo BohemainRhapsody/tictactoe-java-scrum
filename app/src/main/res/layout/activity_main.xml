@@ -36,72 +36,81 @@
 
             <ImageButton
                 android:id="@+id/input1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:visibility="invisible"
                 android:layout_above="@id/input4"
                 android:layout_alignStart="@id/input4"
                 android:text="" />
 
             <ImageButton
                 android:id="@+id/input2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:visibility="invisible"
                 android:layout_above="@id/input5"
                 android:layout_alignStart="@id/input5"
                 android:text="" />
 
             <ImageButton
                 android:id="@+id/input3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:visibility="invisible"
                 android:layout_above="@id/input6"
                 android:layout_alignStart="@id/input6"
                 android:text="" />
 
             <ImageButton
                 android:id="@+id/input4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:visibility="invisible"
                 android:layout_centerVertical="true"
                 android:layout_alignParentStart="true"
                 android:text="" />
 
             <ImageButton
                 android:id="@+id/input5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:visibility="invisible"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
                 android:text="" />
 
             <ImageButton
                 android:id="@+id/input6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:visibility="invisible"
                 android:layout_centerVertical="true"
                 android:layout_alignParentEnd="true"
                 android:text="" />
 
             <ImageButton
                 android:id="@+id/input7"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:visibility="invisible"
                 android:layout_below="@id/input4"
                 android:layout_alignStart="@id/input4"
                 android:text="" />
 
             <ImageButton
                 android:id="@+id/input8"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:visibility="invisible"
                 android:layout_below="@id/input5"
                 android:layout_alignStart="@id/input5"
                 android:text="" />
 
             <ImageButton
                 android:id="@+id/input9"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:visibility="invisible"
                 android:layout_centerHorizontal="true"
                 android:layout_below="@id/input6"
                 android:layout_alignStart="@id/input6"
