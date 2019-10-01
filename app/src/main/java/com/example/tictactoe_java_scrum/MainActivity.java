@@ -26,12 +26,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        final ImageButton iB = findViewById(R.id.input0);
+        final ImageButton iB = findViewById(R.id.input1);
         iB.setOnClickListener(new View.OnClickListener()
         {
             public void onClick(View v)
             {
-                ImageButton iB = findViewById(R.id.input0);
+                ImageButton iB = findViewById(R.id.input1);
                 iB.setBackgroundResource(R.drawable.tic_tac_toe_x);
                 Toast toast = Toast.makeText(getApplicationContext(), "", Toast.LENGTH_SHORT);
                 toast.show();
