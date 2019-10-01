@@ -35,6 +35,15 @@
             android:layout_gravity="center">
 
             <ImageButton
+                android:id="@+id/input0"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:visibility="visible"
+                android:layout_above="@id/input3"
+                android:layout_alignStart="@id/input3"
+                android:background/>
+
+            <ImageButton
                 android:id="@+id/input1"
                 android:layout_width="125dp"
                 android:layout_height="125dp"
@@ -57,21 +66,12 @@
                 android:layout_width="125dp"
                 android:layout_height="125dp"
                 android:visibility="invisible"
-                android:layout_above="@id/input6"
-                android:layout_alignStart="@id/input6"
-                android:text="" />
-
-            <ImageButton
-                android:id="@+id/input4"
-                android:layout_width="125dp"
-                android:layout_height="125dp"
-                android:visibility="invisible"
                 android:layout_centerVertical="true"
                 android:layout_alignParentStart="true"
                 android:text="" />
 
             <ImageButton
-                android:id="@+id/input5"
+                android:id="@+id/input4"
                 android:layout_width="125dp"
                 android:layout_height="125dp"
                 android:visibility="invisible"
@@ -80,12 +80,21 @@
                 android:text="" />
 
             <ImageButton
+                android:id="@+id/input5"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:text=""
+                android:visibility="invisible" />
+
+            <ImageButton
                 android:id="@+id/input6"
                 android:layout_width="125dp"
                 android:layout_height="125dp"
                 android:visibility="invisible"
-                android:layout_centerVertical="true"
-                android:layout_alignParentEnd="true"
+                android:layout_below="@id/input3"
+                android:layout_alignStart="@id/input3"
                 android:text="" />
 
             <ImageButton
@@ -102,18 +111,9 @@
                 android:layout_width="125dp"
                 android:layout_height="125dp"
                 android:visibility="invisible"
+                android:layout_centerHorizontal="true"
                 android:layout_below="@id/input5"
                 android:layout_alignStart="@id/input5"
-                android:text="" />
-
-            <ImageButton
-                android:id="@+id/input9"
-                android:layout_width="125dp"
-                android:layout_height="125dp"
-                android:visibility="invisible"
-                android:layout_centerHorizontal="true"
-                android:layout_below="@id/input6"
-                android:layout_alignStart="@id/input6"
                 android:text="" />
 
             <Button

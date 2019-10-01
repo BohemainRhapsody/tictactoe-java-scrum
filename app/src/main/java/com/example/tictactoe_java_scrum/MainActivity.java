@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.Toast;
 
@@ -21,6 +22,18 @@ public class MainActivity extends AppCompatActivity {
         reset.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Toast toast = Toast.makeText(getApplicationContext(), "The board has been reset!", Toast.LENGTH_SHORT);
+                toast.show();
+            }
+        });
+
+        final ImageButton iB = findViewById(R.id.input0);
+        iB.setOnClickListener(new View.OnClickListener()
+        {
+            public void onClick(View v)
+            {
+                ImageButton iB = findViewById(R.id.input0);
+                iB.setBackgroundResource(R.drawable.tic_tac_toe_x);
+                Toast toast = Toast.makeText(getApplicationContext(), "", Toast.LENGTH_SHORT);
                 toast.show();
             }
         });
