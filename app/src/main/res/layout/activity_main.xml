@@ -42,11 +42,10 @@
                 android:layout_above="@id/input4"
                 android:layout_alignStart="@id/input4"
                 android:layout_marginBottom="15dp"
-                android:text=""
                 android:visibility="visible"
-                android:background="clear"
-                android:scaleType="fitCenter"
-                android:src="@drawable/tic_tac_toe_x"/>
+                android:background="#00000000"
+                android:scaleType="fitCenter" />
+
 
             <ImageButton
                 android:id="@+id/input2"
@@ -55,12 +54,10 @@
                 android:layout_height="125dp"
                 android:layout_above="@id/input5"
                 android:layout_alignStart="@id/input5"
-                android:text=""
                 android:layout_marginBottom="15dp"
                 android:visibility="visible"
-                android:background="clear"
-                android:scaleType="fitCenter"
-                android:src="@drawable/tic_tac_toe_x"/>
+                android:background="#00000000"
+                android:scaleType="fitCenter" />
 
             <ImageButton
                 android:id="@+id/input3"
@@ -69,12 +66,10 @@
                 android:layout_height="125dp"
                 android:layout_above="@id/input6"
                 android:layout_alignStart="@id/input6"
-                android:text=""
                 android:layout_marginBottom="15dp"
-                android:background="clear"
+                android:background="#00000000"
                 android:visibility="visible"
-                android:scaleType="fitCenter"
-                android:src="@drawable/tic_tac_toe_x"/>
+                android:scaleType="fitCenter" />
 
             <ImageButton
                 android:id="@+id/input4"
@@ -83,10 +78,8 @@
                 android:layout_height="125dp"
                 android:layout_centerVertical="true"
                 android:layout_alignParentStart="true"
-                android:background="clear"
-                android:text=""
-                android:scaleType="fitCenter"
-                android:src="@drawable/tic_tac_toe_x"/>
+                android:background="#00000000"
+                android:scaleType="fitCenter" />
 
             <ImageButton
                 android:id="@+id/input5"
@@ -95,11 +88,9 @@
                 android:layout_height="125dp"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
-                android:text=""
-                android:background="clear"
+                android:background="#00000000"
                 android:visibility="visible"
-                android:scaleType="fitCenter"
-                android:src="@drawable/tic_tac_toe_x"/>
+                android:scaleType="fitCenter" />
 
             <ImageButton
                 android:id="@+id/input6"
@@ -108,11 +99,9 @@
                 android:layout_height="125dp"
                 android:layout_centerVertical="true"
                 android:layout_alignParentEnd="true"
-                android:text=""
-                android:background="clear"
+                android:background="#00000000"
                 android:visibility="visible"
-                android:scaleType="fitCenter"
-                android:src="@drawable/tic_tac_toe_x"/>
+                android:scaleType="fitCenter" />
 
             <ImageButton
                 android:id="@+id/input7"
@@ -121,12 +110,11 @@
                 android:layout_height="125dp"
                 android:layout_below="@id/input4"
                 android:layout_alignStart="@id/input4"
-                android:text=""
-                android:background="clear"
+                android:background="#00000000"
                 android:layout_marginTop="15dp"
                 android:visibility="visible"
-                android:scaleType="fitCenter"
-                android:src="@drawable/tic_tac_toe_x"/>
+                android:scaleType="fitCenter" />
+
             <ImageButton
                 android:id="@+id/input8"
                 android:contentDescription="@string/layoutBG"
@@ -134,12 +122,11 @@
                 android:layout_height="125dp"
                 android:layout_below="@id/input5"
                 android:layout_alignStart="@id/input5"
-                android:text=""
-                android:background="clear"
+                android:background="#00000000"
                 android:layout_marginTop="15dp"
                 android:visibility="visible"
-                android:scaleType="fitCenter"
-                android:src="@drawable/tic_tac_toe_x"/>
+                android:scaleType="fitCenter" />
+
             <ImageButton
                 android:id="@+id/input9"
                 android:contentDescription="@string/layoutBG"
@@ -148,13 +135,11 @@
                 android:layout_centerHorizontal="true"
                 android:layout_below="@id/input6"
                 android:layout_alignStart="@id/input6"
-                android:text=""
                 android:layout_marginTop="15dp"
-                android:background="clear"
+                android:background="#00000000"
                 android:visibility="visible"
                 android:padding="10dp"
-                android:scaleType="fitCenter"
-                android:src="@drawable/tic_tac_toe_o"/>
+                android:scaleType="fitCenter" />
 
             <Button
                 android:id="@+id/button_reset"
