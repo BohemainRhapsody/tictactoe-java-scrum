@@ -11,7 +11,6 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     private int turns;
-    private ImageButton temp;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -54,7 +53,6 @@ public class MainActivity extends AppCompatActivity {
 
 
         for(final ImageButton i : ls){
-//            temp = i;
             i.setOnClickListener(new View.OnClickListener() {
                 public void onClick(View view) {
                     if(turns%2==0)
